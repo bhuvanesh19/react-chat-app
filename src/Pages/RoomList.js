@@ -38,6 +38,7 @@ export default function RoomList(){
             style={{
                   display:"flex",
                   flexDirection:"row",
+                  flexWrap:'wrap',
                   }}
       >
         {qds.map((qds)=><Paper sx={{
